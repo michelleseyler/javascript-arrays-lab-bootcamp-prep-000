@@ -3,6 +3,7 @@ const app = "I don't do much."
 var kittens = ["Milo", "Otis", "Garfield",];
 function kittens() {
   return kittens 
+<<<<<<< HEAD
 }
 function destructivelyAppendKitten(name) {
   kittens.push(name)
@@ -35,4 +36,6 @@ function removeFirstKitten() {
   var newArr = kittens.slice()
   newArr.shift()
   return newArr
+=======
+>>>>>>> 1daf7c4feba91b5c834815adaf79c19c8c065dd1
 }
